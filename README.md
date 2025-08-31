@@ -51,6 +51,12 @@ npm link
 
 ## 🎯 Usage
 
+### 🌐 Live Example
+
+See what this CLI creates by visiting our live demo: **[https://rust-on-vercel-template.vercel.app/](https://rust-on-vercel-template.vercel.app/)**
+
+This showcase demonstrates the full-stack Rust + Next.js application that gets generated, complete with authentication, database integration, and API endpoints.
+
 ### Interactive Mode
 
 ```bash

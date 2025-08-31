@@ -18,6 +18,7 @@
   ],
   "author": "Peter Mwangi <kylepeterkone4@gmail.com>",
   "license": "MIT",
+ "homepage": "https://github.com/peterkyle01/create-rust-on-vercel", 
   "repository": {
     "type": "git",
     "url": "https://github.com/peterkyle01/create-rust-on-vercel.git"
