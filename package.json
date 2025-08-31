@@ -1,6 +1,6 @@
 {
   "name": "create-rust-on-vercel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Scaffold a new Rust project for Vercel with a Next.js frontend.",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,7 @@
   ],
   "author": "Peter Mwangi <kylepeterkone4@gmail.com>",
   "license": "MIT",
- "homepage": "https://github.com/peterkyle01/create-rust-on-vercel", 
+  "homepage": "https://github.com/peterkyle01/create-rust-on-vercel",
   "repository": {
     "type": "git",
     "url": "https://github.com/peterkyle01/create-rust-on-vercel.git"
