@@ -104,11 +104,15 @@ program
 
       console.log(chalk.green('✅ Project configuration updated!'));
 
+      // Create .npmrc to suppress warnings
+      const npmrcPath = path.join(projectPath, '.npmrc');
+      fs.writeFileSync(npmrcPath, 'audit=false\nfund=false\nloglevel=silent\n', 'utf8');
+
       console.log(chalk.yellow('\n📦 Installing Node.js dependencies...'));
       const npmSpinner = ora(chalk.cyan('Running npm install...')).start();
 
       try {
-        await execa('npm', ['install'], { cwd: projectPath });
+        await execa('npm', ['install', '--silent', '--no-audit', '--no-fund'], { cwd: projectPath });
         npmSpinner.succeed(chalk.green('✅ Node.js dependencies installed!'));
       } catch (error) {
         npmSpinner.fail(chalk.red('❌ Failed to install Node.js dependencies'));
