@@ -164,7 +164,7 @@ npx ./index.js test-project
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![GitHub stars](https://img.shields.io/github/stars/peterkyle01/create-rust-on-vercel?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/peterkyle01/create-rust-on-vercel?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/peterkyle01/create-rust-on-vercel)
-![GitHub license](https://img.shields.io/github/license/peterkyle01/create-rust-on-vercel)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </div>
 
