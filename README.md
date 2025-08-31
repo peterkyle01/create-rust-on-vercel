@@ -108,16 +108,20 @@ After creating your project:
 cd my-awesome-project
 
 # Start development server
-npm run dev
+vercel dev
 
-# Build Rust functions
-cargo build
+# Build for production
+npm run build
 
-# Run database migrations
-cargo run --bin migrate
+# Database operations
+npm run db:setup          # Setup database and generate types
+npm run db:migrate        # Run migrations
+npm run generate:types    # Generate TypeScript types from Rust
 
-# Generate TypeScript types from Rust
-cargo run --bin generate_ts
+# Rust operations
+npm run rust:build        # Build Rust functions
+npm run rust:check        # Check Rust code
+npm run rust:check-offline # Check code without database connection
 ```
 
 ## 🔧 Configuration
@@ -170,7 +174,7 @@ This project is licensed under the MIT License.
 
 **Peter Mwangi**
 
-- 📧 Email: kylepeterkone4@gmail.com
+- 📧 Email: kylepeterkoine4@gmail.com
 - 🐙 GitHub: [@peterkyle01](https://github.com/peterkyle01)
 
 ## 🙏 Acknowledgments
